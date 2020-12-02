@@ -1,0 +1,51 @@
+@media (max-width: 767px) {
+
+  section {
+    padding: 2.5rem;
+  }
+
+  .banner .content h2 {
+    font-size: 2.5em;
+  }
+
+  .banner .content p {
+    font-size: 1em;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about .contentBx,
+  .about .imgBx {
+    min-width: 100%;
+    width: 100%;
+    text-align: center;
+    padding-right: 0rem;
+  }
+
+  .about .imgBx {
+    min-height: 15.625rem;
+  }
+
+  .btn {
+    margin-bottom: 1.875rem;
+  }
+
+  .destination  .destinationList .box {
+    position: relative;
+    max-width: 21.875rem;
+    min-width: initial;
+    width: 21.875rem;
+    height: 25rem;
+  }
+
+  .destination  .destinationList .box .imgBx {
+    height: 20rem;
+  }
+
+  .footer .sci li a img {
+    filter: invert(1);
+    max-width: 1.875rem;
+  }
+}

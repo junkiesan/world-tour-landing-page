@@ -1,0 +1,21 @@
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .contentBx {
+  min-width: 50%;
+  width: 50%;
+  text-align: end;
+  padding-right: 2.5rem;
+}
+
+.about .imgBx {
+  position: relative;
+  min-width: 50%;
+  width : 50%;
+  min-height: 31.25rem;
+}

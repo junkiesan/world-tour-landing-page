@@ -1,0 +1,9 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  margin-top: 1.875rem;
+  padding: 0.625rem 1.875rem;
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+}

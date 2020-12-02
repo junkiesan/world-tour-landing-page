@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.footer .sci {
+  position: relative;
+  display: flex;
+}
+
+.footer .sci li {
+  list-style: none;
+}
+
+.footer .sci li a {
+  text-decoration: none;
+  margin: 0 1.25rem;
+}
+
+.footer .sci li a img {
+  filter: invert(1);
+  max-width: 2.5rem;
+}
+
+.copyrightText {
+  margin-top: 1.25rem;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: #666;
+  text-align: center;
+}
+
+.copyrightText a {
+  color: #fff;
+  text-decoration: none;
+}
